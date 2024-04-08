@@ -15,7 +15,7 @@ app.get("/", customLogger, (req, res) => {
 });
 
 app.get("/posts", (req, res) => {
-  res.send("Im working posts");
+  res.send(" posts");
 });
 
 // Middleware
