@@ -8,7 +8,7 @@ router
   .get((req, res) => {
     // query param
     // req.query.[queryParamName]
-
+//Para que sirve
     res.send(
       `User id: ${req.params.id} - UserID: ${req.userId} - test: ${req.test}`
     );
@@ -34,7 +34,8 @@ router.get("/:id", (req, res) => {
 });
 
 // /users/:id
-router.get("/:id/hi/:name", (req, res) => {
+// como le queito el hi
+router.get("/:id/hi/:name", (req, res) => { //no es necesario poner :
   const userID = req.params.id;
   const userName = req.params.name;
 
