@@ -35,7 +35,7 @@ router.get("/:id", (req, res) => {
 
 // /users/:id
 // como le queito el hi
-router.get("/:id/hi/:name", (req, res) => { //no es necesario poner :
+router.get("/:id/hi/:name", (req, res) => { //no es necesario poner : eso solo significs que es variable
   const userID = req.params.id;
   const userName = req.params.name;
 
